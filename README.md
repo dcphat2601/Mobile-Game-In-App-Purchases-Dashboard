@@ -63,7 +63,7 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 ---
 
 ### 3. Monetization and Devices
-<img width="1310" height="733" alt="money" src="https://github.com/user-attachments/assets/eebb5803-5458-4326-9f78-f8192d26e190" />
+<img width="1307" height="732" alt="weq" src="https://github.com/user-attachments/assets/329256f1-0d9b-4343-a2db-1b4ae212603a" />
 
 - **Main KPIs**
 - Average Revenue per Device: 98.75K
