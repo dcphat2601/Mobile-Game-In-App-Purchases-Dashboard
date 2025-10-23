@@ -68,16 +68,25 @@ Saved the cleaned dataset as clean_mobile_game_data.csv and downloaded it for da
 <img width="1312" height="737" alt="over" src="https://github.com/user-attachments/assets/b4d59c61-37dd-418c-be6c-f82144c76609" />
 
 - **Main KPIs**
-- Total Revenue: 296K
-- Total Users: 2,888
-- Paying Users: 2,831
-- ARPPU: 104.65
+
+ Total Revenue: 296K
+
+ Total Users: 2,888
+
+ Paying Users: 2,831
+
+ ARPPU: 104.65
 - **Key Insights**
-- Whales account for 59% of total revenue.
-- Android users generate slightly higher revenue than iOS.
-- Male players contribute around 69% of total spending.
-- Revenue peaks in April and July, likely due to seasonal events.
-- Top 5 game genres: Racing, Battle Royale, Strategy, MOBA, Fighting.
+
+ Whales account for 59% of total revenue.
+
+ Android users generate slightly higher revenue than iOS.
+
+ Male players contribute around 69% of total spending.
+
+ Revenue peaks in April and July, likely due to seasonal events.
+
+ Top 5 game genres: Racing, Battle Royale, Strategy, MOBA, Fighting.
 
 ---
 
@@ -85,17 +94,27 @@ Saved the cleaned dataset as clean_mobile_game_data.csv and downloaded it for da
 <img width="1308" height="732" alt="usere" src="https://github.com/user-attachments/assets/0997cb7f-8b3f-4dc8-a910-7212bc287941" />
 
 - **Main KPIs**
-- Average Session Length: 20.08 minutes
-- Average Revenue per Session: 10.19
-- Sessions per User: 10.07
-- Conversion Rate: 98.03%
+
+ Average Session Length: 20.08 minutes
+
+ Average Revenue per Session: 10.19
+
+ Sessions per User: 10.07
+
+ Conversion Rate: 98.03%
 - **Key Insights**
-- Players aged 25–54 contribute the majority of total spending.
-- Teen players (<18) surprisingly account for over 24% of average revenue, likely due to microtransactions.
-- 18–24 group has the lowest contribution, possibly due to lower income or preference for free-to-play gameplay.
-- Whales dominate revenue across all age groups, but especially strong in 35–54.
-- iOS users lead slightly in revenue per session compared to Android.
-- Top spending countries remain Afghanistan, Bangladesh, Canada, India and Russia.
+
+ Players aged 25–54 contribute the majority of total spending.
+
+ Teen players (<18) surprisingly account for over 24% of average revenue, likely due to microtransactions.
+
+ 18–24 group has the lowest contribution, possibly due to lower income or preference for free-to-play gameplay.
+
+ Whales dominate revenue across all age groups, but especially strong in 35–54.
+
+ iOS users lead slightly in revenue per session compared to Android.
+
+ Top spending countries remain Afghanistan, Bangladesh, Canada, India and Russia.
 
 ---
 
@@ -103,16 +122,25 @@ Saved the cleaned dataset as clean_mobile_game_data.csv and downloaded it for da
 <img width="1307" height="732" alt="weq" src="https://github.com/user-attachments/assets/329256f1-0d9b-4343-a2db-1b4ae212603a" />
 
 - **Main KPIs**
-- Average Revenue per Device: 98.75K
-- Average Payment Amount per Transaction: 102.58
-- Top Payment Method: Debit Card
-- Average Revenue per Game Genre: 18.52K
+
+ Average Revenue per Device: 98.75K
+
+ Average Payment Amount per Transaction: 102.58
+
+ Top Payment Method: Debit Card
+
+ Average Revenue per Game Genre: 18.52K
 - **Key Insights**
-- Debit Card leads as the top payment method, followed by PayPal and Gift Card.
-- iOS users spend more per transaction (111) than Android users (95), showing higher ARPPU despite fewer transactions.
-- Interestingly, Apple Pay transactions are more frequent on Android, while Google Pay dominates on iOS — suggesting possible data inconsistency or cross-platform usage in the dataset.
-- Racing, Battle Royale, and Strategy genres maintain the highest average revenue per user (ARPU), especially for iOS players.
-- Debit Cards and Paypal remain the most universal methods across both platforms.
+
+ Debit Card leads as the top payment method, followed by PayPal and Gift Card.
+
+ iOS users spend more per transaction (111) than Android users (95), showing higher ARPPU despite fewer transactions.
+
+ Interestingly, Apple Pay transactions are more frequent on Android, while Google Pay dominates on iOS — suggesting possible data inconsistency or cross-platform usage in the dataset.
+
+ Racing, Battle Royale, and Strategy genres maintain the highest average revenue per user (ARPU), especially for iOS players.
+
+ Debit Cards and PayPal remain the most universal methods across both platforms.
 
 ---
 ## Actionable Insights & Recommendations
@@ -138,9 +166,7 @@ Debit Card, PayPal, and Gift Card are the top payment methods → streamline the
 
 Cross-platform payment anomalies (e.g., Apple Pay on Android) may indicate SDK misattribution or cross-device login behavior → worth validating in further data quality checks.
 
-iOS users spend more per transaction (ARPPU 111) → prioritize premium content and event passes for iOS segments.
-
-Maintain investment in Racing, Battle Royale, and Strategy genres — consistently highest ARPU.
+Maintain investment in Racing, Battle Royale, and Strategy genres — consistently the highest ARPU.
 
 ## Strategic Takeaways
 
