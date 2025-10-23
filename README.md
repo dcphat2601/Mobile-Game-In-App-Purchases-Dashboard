@@ -28,37 +28,40 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 
 ---
 ## Data Processing
+
 All preprocessing was done in Google Colab using Python (Pandas) before importing into Power BI for visualization.
 
-**Steps:**
+Steps:
 
-- **Data Loading**
+1. Data Loading
 
- Imported the original CSV file from Google Drive using pandas.read_csv().
+Imported the original CSV file from Google Drive using pandas.read_csv().
 
- Checked dataset shape, column types, and missing values with df.info() and df.isna().sum().
-- **Data Cleaning**
+Checked dataset shape, column types, and missing values with df.info() and df.isna().sum().
 
- Converted LastPurchaseDate column to datetime format.
+2. Data Cleaning
 
- Removed rows with missing InAppPurchaseAmount (non-paying users).
- 
- Filled missing values:
- 
- PaymentMethod → "Unknown"
- 
- Age → median age
- 
- Gender, Country, Device, GameGenre → "Unknown"
- 
-- **Verification**
+Converted LastPurchaseDate column to datetime format.
 
- Rechecked missing values to confirm no nulls remained.
+Removed rows with missing InAppPurchaseAmount (non-paying users).
 
- Ensured column types were consistent for Power BI import.
-- **Export**
+Filled missing values:
 
- Saved the cleaned dataset as clean_mobile_game_data.csv and downloaded it for Power BI dashboard creation.
+PaymentMethod → "Unknown"
+
+Age → median age
+
+Gender, Country, Device, GameGenre → "Unknown"
+
+3. Verification
+
+Rechecked missing values to confirm no nulls remained.
+
+Ensured column types were consistent for Power BI import.
+
+4. Export
+
+Saved the cleaned dataset as clean_mobile_game_data.csv and downloaded it for dashboard creation.
 ## Dashboard Structure
 
 ### 1. Overview
