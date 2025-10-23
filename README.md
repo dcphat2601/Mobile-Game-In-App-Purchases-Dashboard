@@ -20,70 +20,63 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 - **Excel:** quick data checks before importing  
 
 ---
-
+## Dataset Characteristics
+Total Records: 3,024 user entries
+Features: 13 columns covering user demographics, gaming behavior, and transaction data
+Target Application: Mobile game monetization analysis, user behavior prediction, and revenue optimization
+Data Quality: Contains realistic null values (~2-5%) to simulate real-world data collection scenarios
 ## Dashboard Structure
 
 ### 1. Overview
 <img width="1312" height="737" alt="over" src="https://github.com/user-attachments/assets/b4d59c61-37dd-418c-be6c-f82144c76609" />
 
-- Total Revenue: 26M  
-- Total Users: 2,888 (almost all are paying users)  
-- Whales contribute around 58% of total revenue  
-- Android slightly outperforms iOS in total spending  
-- Top genres: Battle Royale and Racing  
-- Revenue peaks around April
+- **Main KPIs**
+Total Revenue: 296K
+Total Users: 2,888
+Paying Users: 2,831
+ARPPU: 104.65
+- **Key Insights**
+Whales account for 59% of total revenue.
+Android users generate slightly higher revenue than iOS.
+Male players contribute around 69% of total spending.
+Revenue peaks in April and July, likely due to seasonal events.
+Top 5 game genres: Racing, Battle Royale, Strategy, MOBA, Fighting.
 
 ---
 
 ### 2. User Behavior
 <img width="1308" height="732" alt="usere" src="https://github.com/user-attachments/assets/0997cb7f-8b3f-4dc8-a910-7212bc287941" />
 
-- Average Session Length: around 30 minutes  
-- Average Revenue per Session: about 892  
-- Conversion Rate: 99.97%  
-- Top Age Group: 25–34 years old  
-- Whales play more and spend higher than other segments  
-- Top countries: Afghanistan and Canada
+- **Main KPIs**
+Average Session Length: 20.08 minutes
+Average Revenue per Session: 10.19
+Sessions per User: 10.07
+Conversion Rate: 98.03%
+- **Key Insights**
+Players aged 25–54 contribute the majority of total spending.
+Teen players (<18) surprisingly account for over 24% of average revenue, likely due to microtransactions.
+18–24 group has the lowest contribution, possibly due to lower income or preference for free-to-play gameplay.
+Whales dominate revenue across all age groups, but especially strong in 35–54.
+iOS users lead slightly in revenue per session compared to Android.
+Top spending countries remain Afghanistan, Bangladesh, Canada, India and Russia.
 
 ---
 
 ### 3. Monetization and Devices
 <img width="1310" height="733" alt="money" src="https://github.com/user-attachments/assets/eebb5803-5458-4326-9f78-f8192d26e190" />
 
-- Average Revenue per Device: Android > iOS  
-- Average Payment per Transaction: about 8.9K  
-- Top Payment Method: Debit Card  
-- Android users mostly use Google Pay and Carrier Billing  
-- iOS users prefer Credit or Debit Card  
-- Adventure and Puzzle genres have the highest average revenue  
+- **Main KPIs**
+Average Revenue per Device: 98.75K
+Average Payment Amount per Transaction: 102.58
+Top Payment Method: Debit Card
+Average Revenue per Game Genre: 18.52K
+- **Key Insights**
+Debit Card leads as the top payment method, followed by PayPal and Gift Card.
+iOS users spend more per transaction (111) than Android users (95), showing higher ARPPU despite fewer transactions.
+Interestingly, Apple Pay transactions are more frequent on Android, while Google Pay dominates on iOS — suggesting possible data inconsistency or cross-platform usage in the dataset.
+Racing, Battle Royale, and Strategy genres maintain the highest average revenue per user (ARPU), especially for iOS players.
+Debit Cards and Paypal remain the most universal methods across both platforms.
 
 ---
 
-## Key Takeaways
-- A small group of Whales drives most of the revenue  
-- Android users contribute higher total revenue, while iOS users pay more per transaction  
-- Debit Card and Google Pay are the most used payment methods  
-- Players aged 25–34 are the most valuable audience  
-- Battle Royale and Adventure games are the best-performing genres  
 
----
-
-## Dataset Information
-- **Source:** [Kaggle – Mobile Game In-App Purchases Dataset 2025](https://www.kaggle.com/datasets/pratyushpuri/mobile-game-in-app-purchases-dataset-2025)  
-- **Rows:** 3,024  
-- **Columns:** 13  
-- **Main fields:** UserID, Age, Gender, Country, Device, GameGenre, SpendingSegment, InAppPurchaseAmount, PaymentMethod, SessionCount, LastPurchaseDate  
-
----
-
-## Conclusion
-This project helped me understand how data visualization and storytelling can highlight business insights in the gaming industry.  
-It also improved my Power BI workflow, from data preparation and DAX formulas to dashboard design and insights generation.
-
----
-
-## Author
-**Đỗ Đức Phát**  
-Final-year student – Management Information Systems (Data Science in Business)  
-Banking University HCMC  
-[LinkedIn](https://linkedin.com/in/doducphat0126) | [GitHub](https://github.com/dcphat2601)
