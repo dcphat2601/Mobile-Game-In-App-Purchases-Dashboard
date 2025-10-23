@@ -28,10 +28,9 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 
 ---
 ## Data Processing
+All preprocessing was done in Google Colab using Python (Pandas) before importing into Power BI for visualization.
 
-- All preprocessing was done in Google Colab using Python (Pandas) before importing into Power BI for visualization.
-
-- **Steps:**
+**Steps:**
 
 - **Data Loading**
 
