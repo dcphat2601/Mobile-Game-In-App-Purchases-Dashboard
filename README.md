@@ -21,10 +21,10 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 
 ---
 ## Dataset Characteristics
-Total Records: 3,024 user entries
-Features: 13 columns covering user demographics, gaming behavior, and transaction data
-Target Application: Mobile game monetization analysis, user behavior prediction, and revenue optimization
-Data Quality: Contains realistic null values (~2-5%) to simulate real-world data collection scenarios
+- Total Records: 3,024 user entries
+- Features: 13 columns covering user demographics, gaming behavior, and transaction data
+- Target Application: Mobile game monetization analysis, user behavior prediction, and revenue optimization
+- Data Quality: Contains realistic null values (~2-5%) to simulate real-world data collection scenarios
 ## Dashboard Structure
 
 ### 1. Overview
