@@ -25,6 +25,43 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 - Features: 13 columns covering user demographics, gaming behavior, and transaction data
 - Target Application: Mobile game monetization analysis, user behavior prediction, and revenue optimization
 - Data Quality: Contains realistic null values (~2-5%) to simulate real-world data collection scenarios
+
+---
+## Data Processing
+
+- All preprocessing was done in Google Colab using Python (Pandas) before importing into Power BI for visualization.
+
+- **Steps:**
+
+- **Data Loading**
+
+- Imported the original CSV file from Google Drive using pandas.read_csv().
+
+- Checked dataset shape, column types, and missing values with df.info() and df.isna().sum().
+
+- **Data Cleaning**
+
+- Converted LastPurchaseDate column to datetime format.
+
+- Removed rows with missing InAppPurchaseAmount (non-paying users).
+
+- Filled missing values:
+
+- PaymentMethod → "Unknown"
+
+- Age → median age
+
+- Gender, Country, Device, GameGenre → "Unknown"
+
+- **Verification**
+
+- Rechecked missing values to confirm no nulls remained.
+
+- Ensured column types were consistent for Power BI import.
+
+- **Export**
+
+- Saved the cleaned dataset as clean_mobile_game_data.csv and downloaded it for Power BI dashboard creation.
 ## Dashboard Structure
 
 ### 1. Overview
