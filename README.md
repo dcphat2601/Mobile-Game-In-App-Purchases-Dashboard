@@ -33,10 +33,12 @@ All preprocessing was done in Google Colab using Python (Pandas) before importin
 **Steps:**
 
 - **Data Loading**
+
  Imported the original CSV file from Google Drive using pandas.read_csv().
 
  Checked dataset shape, column types, and missing values with df.info() and df.isna().sum().
 - **Data Cleaning**
+
  Converted LastPurchaseDate column to datetime format.
 
  Removed rows with missing InAppPurchaseAmount (non-paying users).
@@ -50,6 +52,7 @@ All preprocessing was done in Google Colab using Python (Pandas) before importin
  Gender, Country, Device, GameGenre → "Unknown"
  
 - **Verification**
+
  Rechecked missing values to confirm no nulls remained.
 
  Ensured column types were consistent for Power BI import.
