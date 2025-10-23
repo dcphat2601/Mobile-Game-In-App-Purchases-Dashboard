@@ -24,7 +24,7 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 ## Dashboard Structure
 
 ### 1. Overview
-<img width="960" height="542" alt="overview" src="https://github.com/user-attachments/assets/9ef1b330-1ec4-4784-a4f8-dd4f542964dc" />
+<img width="1312" height="737" alt="over" src="https://github.com/user-attachments/assets/b4d59c61-37dd-418c-be6c-f82144c76609" />
 
 - Total Revenue: 26M  
 - Total Users: 2,888 (almost all are paying users)  
@@ -36,7 +36,7 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 ---
 
 ### 2. User Behavior
-<img width="960" height="537" alt="user" src="https://github.com/user-attachments/assets/73d7cb07-1dd9-49fe-8565-dcb983aa4f3e" />
+<img width="1308" height="732" alt="usere" src="https://github.com/user-attachments/assets/0997cb7f-8b3f-4dc8-a910-7212bc287941" />
 
 - Average Session Length: around 30 minutes  
 - Average Revenue per Session: about 892  
@@ -48,7 +48,7 @@ It’s also a practice project for me to improve skills in Power BI, Python, and
 ---
 
 ### 3. Monetization and Devices
-<img width="960" height="538" alt="mone" src="https://github.com/user-attachments/assets/f233ff30-1bad-4bb0-9185-0b8744723d9e" />
+<img width="1310" height="733" alt="money" src="https://github.com/user-attachments/assets/eebb5803-5458-4326-9f78-f8192d26e190" />
 
 - Average Revenue per Device: Android > iOS  
 - Average Payment per Transaction: about 8.9K  
